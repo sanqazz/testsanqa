@@ -3,9 +3,9 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute ('src','images/wow-icon.png');
+      myImage.setAttribute ('src','wow-icon.png');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','firefox-icon.png');
     }
 }
 var myButton = document.querySelector('button');
